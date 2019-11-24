@@ -1,0 +1,51 @@
+/* Imports of other style sheets */
+@import "nav.css";
+@import "animation.css";
+@import "footer.css";
+@import "floating-text.css";
+@import "portfolio-grid.css";
+@import "contact-form.css";
+@import "blog.css";
+@import "media.css";
+@import "mobile-nav.css";
+@import "about-me.css";
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* Removal of all padding and margin + font applied to all */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* Overall container parent for every page */
+.container {
+	display: flex;
+	flex-direction: column;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	background-color: transparent;
+	height: 100vh;
+	align-content: stretch
+}
+
+/* background images (more background images located in media.css for different screen sizes) */
+#blog-background {
+	background: url(/Content/Web_Background.png);
+	background-size: cover;
+}
+
+#contact-background {
+	background: url(/Content/Web_Background.png);
+	background-size: cover;
+}
+
+#portfolio-background {
+	background: url(/Content/Web_Background.png);
+}
+
+a {
+	text-decoration: none;
+}

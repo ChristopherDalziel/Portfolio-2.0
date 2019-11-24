@@ -1,0 +1,35 @@
+/* Section height/width */
+section {
+  height: 80%;
+  width: 30%
+}
+
+/* Text edit on resume download line */
+section a {
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 16px;
+  color: #493A37;
+}
+
+/* sizing and colour for download icon */
+section i {
+  font-size: 30px;
+  color: #493A37;
+}
+
+/* hovering ease in/out for test line */
+section a:hover {
+  color: #A8B7AB;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* hovering ease in/out for download icon */
+section i:hover {
+  color: #A8B7AB;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,195 @@
+.grid-container {
+  height: 75%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 300px, 600px;
+  overflow-x: scroll;
+}
+
+/* Individual box location and sizing, prevents background images repeating when screen size increases */
+.grid {
+  position: relative;
+  float: left;
+  color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Headings ontop of individual boxes position, size font style and size */
+a.heading {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 24px;
+  z-index: 1;
+}
+
+/* Headings ontop of individual boxes further position, background colour/transparency */
+a.heading span {
+  position: relative;
+  top: 65px;
+  padding: 8px;
+  border: 2px solid white;
+  background-color: rgba(39, 26, 26, 0.4)
+}
+
+/* Headings ontop of individual boxes when hovered ease in colour border */
+a.heading span:hover {
+  border: 2px solid #a8b7ab;
+  -webkit-transition: border 0.3s ease-in-out;
+  -moz-transition: border 0.3s ease-in-out;
+  transition: border 0.3s ease-in-out;
+}
+
+/* Details slide font size/text align, opacity, transition, location, background colour  */
+.details {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  opacity: 0;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease-in-out;
+  --webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+}
+
+/* X (Close) button colour, location */
+.details a.close {
+  display: block;
+  color: white;
+  margin-right: 15px;
+  margin-top: 5px;
+  text-align: right;
+}
+
+/* Heading inside the details slide - font color and location */
+.details h2 {
+  color: white;
+  margin-top: 2px;
+}
+
+/* Content within details slide - location, sizing and font colour */
+.details p {
+  margin-top: 0px;
+  padding: 20px 15px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+}
+
+/* Links within the details slide - colour and underlined */
+.details p a {
+  color: white;
+  text-decoration: underline;
+}
+
+/* When hovering a link within the details slide ease in colour */
+.details p a:hover {
+  color: #EF626B;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* TOP LEFT */
+.grid:nth-child(2n+1) .details:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -10px;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #EF626B;
+}
+
+/* TOP RIGHT */
+.grid:nth-child(1n+2) .details:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -10px;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #EF626B;
+}
+
+/* BOTTOM LEFT */
+.grid:nth-child(2n+2) .details:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: -10px;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #EF626B;
+  transform: rotate(180deg);
+}
+
+/* BOTTOM RIGHT */
+.grid:nth-child(0n+0) .details:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 10px;
+  width: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #EF626B;
+}
+
+.grid:nth-child(2n+2) .details:target {
+  opacity: 1;
+  left: -100%;
+  z-index: 99;
+}
+
+.grid:nth-child(2n+1) .details:target {
+  opacity: 1;
+  left: 100%;
+  z-index: 99;
+}
+
+/* Box at the top of the Portfolio page for extra info */
+#portfolio-head {
+  text-align: center;
+  height: 5%;
+  width: 100%;
+}
+
+/* Small boxes to hold image inside the details slide */
+#details-box {
+  display: flex;
+  flex-direction: row;
+  height: 125px;
+  width: 100%;
+  background-color: none;
+}
+
+/* Small box images inside the details slide */
+#details-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 31%;
+  background-color: yellow;
+  margin: auto;
+}

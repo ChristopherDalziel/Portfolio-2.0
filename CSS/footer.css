@@ -1,0 +1,39 @@
+/* Footer container, location, alignment and size */
+.foot-c {
+  display: flex;
+  align-items: flex-end;
+  max-width: 100vw;
+  height: 10%;
+  width: 100%;
+  padding-bottom: 8px;
+}
+
+/* Footer Uppercase font */
+footer {
+  display: flex;
+  text-transform: uppercase;
+}
+
+footer ul {
+  display: flex;
+}
+
+footer li {
+  list-style: none;
+}
+
+/* Footer Spacing, colour */
+footer li a {
+  position: relative;
+  letter-spacing: 2px;
+  font-size: 50px;
+  color: #493A37;
+}
+
+/* Footer on hover effect change colour ease */
+footer li a:hover {
+  color: #A8B7AB;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}

@@ -1,0 +1,50 @@
+/* Mobile navigation bar for home screen */
+
+/* Colour of navigation bar button */
+#mobile-nav i {
+  color: #493A37;
+}
+
+/* Hover ease in/out effect on button */
+#mobile-nav i:hover {
+  color: #A8B7AB;
+  -webkit-transition: color 0.3s ease-in-out;
+  -moz-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Letter spacing of links and colour */
+#mobile-nav ul li a {
+  letter-spacing: 2px;
+  color: #493A37;
+}
+
+/* Hover ease in/out effect on links */
+#mobile-nav ul li a:hover {
+  color: white;
+  background: #A8B7AB;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Size of button */
+#mobile-nav label {
+  font-size: 50px;
+}
+
+/* Hides check box */
+input#menu {
+  display: none;
+}
+
+/* overflow control */
+.menu-content {
+  max-width: 0;
+  overflow: hidden;
+}
+
+/* max width of menu items */
+input:checked~.menu-content {
+  max-width: 100%;
+}
