@@ -14,7 +14,6 @@ My second branch is a simple font change, which again creates a completely diffe
 
 Flexbox design, my entire website is designed around 100vh, on every page, the website is held together by an overlaying container using flex box, the centre is a calculation of all the exterior components, this is the reasoning for the blog overflow it was important to me to keep my impact that my Navigation bar and my footer was consistently in line.<br><br>
 
-All images on the webpage (excluding the R U Ok? day logo) are my own, photographed and edited by myself. <br>
 Icon's were obtained via [Font Awesome](https://fontawesome.com/)<br>
 Fonts obtained via [Google Fonts](https://fonts.google.com/)
 
