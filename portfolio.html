@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
-  <link integrity="sha512-hTsNW5RDg/Flsr+BfBa8CoA9pQEaTbjlPEJpmtXPKI6AQhAgcU71YVwVMLylQ/XucpGZwJ2TGC0NRcWOQREGtQ==" integrity="sha384-OLBgp1GsljhM2TJ+sbHjaiH9txEUvgdDTAzHv2P24donTt6/529l+9Ua0vFImLlb" rel="stylesheet" href="/CSS/index.css">
+  <link rel="stylesheet" href="/CSS/index.css">
   <title>Portfolio</title>
 </head>
 
@@ -24,170 +24,176 @@
     </nav>
 
       <section id="portfolio-head">
-        <H1>TESTING</H1>
-        <p>Future</p>
+        <h3>A series of my past, current and future projects</h3>
+        <p>Click tiles to see more!</p>
       </section>
 
-    <div class="grid-container">
+   <div id="overflow-grid">
+      <div class="grid-container">
 
-      <!-- Grid Squares and content that fills them -->
-      <div class="grid" style="background-image:url('content/img/img2.jpeg')">
-        <a href="#one" class="heading">
-          <!-- <span></span> -->
-        </a>
-        <div class="details" id="one">
-          <a href="#" class="close">X</a>
-          <h2>iMenu - Terminal App (Ruby)</h2>
-          <p>
-              iMenu is a terminal app created using the Ruby programming language. It's designed to be a easy to use POS sale system that can be used directly by the customer or buy a trained CSR.
-              I've used a CSV file to create an easy to update menu that literally anyone can use! <br>
-              iMenu can also take a customer name, customer order and a payment input and export them to a seperate CSV to work as a receipt system, EOD report or profit calculator. 
-            <br><br>
-              You can see more here on my <a href="https://github.com/ChristopherDalziel/t_app">github</a>
+        <!-- Grid Squares and content that fills them -->
+        <div class="grid" style="background-image:url('content/img/img2.jpeg')">
+          <a href="#one" class="heading">
+            <!-- <span></span> -->
+          </a>
+          <div class="details" id="one">
+            <a href="#" class="close">X</a>
+            <h2>iMenu - Terminal App (Ruby)</h2>
+            <p>
+                iMenu is a terminal app created using the Ruby programming language. It's designed to be a easy to use POS sale system that can be used directly by the customer or buy a trained CSR.
+                I've used a CSV file to create an easy to update menu that literally anyone can use! <br>
+                iMenu can also take a customer name, customer order and a payment input and export them to a seperate CSV to work as a receipt system, EOD report or profit calculator. 
+              <br><br>
+                You can see more here on my <a href="https://github.com/ChristopherDalziel/t_app">github</a>
+                <section id="details-box">
+                  <div id="details-image" style="background-image: url('content/img/imenu-1.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/imenu-2.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/burger-csv.png');"></div>
+                </section>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image:url('content/img/img3.jpeg')">
+          <a href="#two" class="heading">
+            <!-- <span>Future Dev.</span> -->
+          </a>
+          <div class="details" id="two">
+            <a href="#" class="close">X</a>
+            <h2>Portfolio - Static Website (HTML, CSS)</h2>
+            <p>
+              This website was designed to be a resume and a portfolio to showcase my work to protentional future employers.<br>
+
+              <br><br>
+              Check out the files on my <a href="https://github.com/ChristopherDalziel/CD-Website">github</a>!
+                <section id="details-box">
+                  <div id="details-image" style="background-image: url('content/img/pf-about.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/pf-contact.png');"></div>
+                </section>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image:url('content/img/snake-market.png')">
+          <a href="#three" class="heading">
+            <!-- <span>t</span> -->
+          </a>
+          <div class="details" id="three">
+            <a href="#" class="close">X</a>
+            <h2>Snake Marketplace - Ruby on Rails (RoR, PostgreSQL, Ruby, HTML, CSS)</h2>
+            <p>
+              The Snake Marketplace was my first Ruby on Rails app, it was built in-class @ Coder Academy as part of our learning expierence before moving onto our Ruby on Rails assignment where we would build our own two-way marketplace app from scratch which would evolve everything I had learned from building the Snake Marketplace and more.<br>
+
+              <br><br>
+              This web-app is not deployed, if you'd like to see screenshots or anything else check it out on my <a href="https://github.com/ChristopherDalziel/snakes_on_a_rail">github</a>!
+                <section id="details-box">
+                  <div id="details-image" style="background-image: url('content/img/snake-show.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/snake-list.png');"></div>
+                </section>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image:url('content/img/mineral-exch.png')">
+          <a href="#four" class="heading">
+            <!-- <span></span> -->
+          </a>
+          <div class="details" id="four">
+            <a href="#" class="close">X</a>
+
+            <h2>The Mineral Exchange - Ruby on Rails (RoR, PostgreSQL, Ruby, HTML, CSS)</h2>
+            <p>
+              This was really a combination of everything I had learnt in the projects above - Command line functions, Ruby programming language, Ruby on Rails, SQL, HTML and CSS.<br>
+              The Mineral Exchange was built to be easy to use two-way marketplace. 
+              <br><br>
+              Check out the files on my <a href="https://github.com/ChristopherDalziel/mineral-exchange-2.0">github</a>!
+                <section id="details-box">
+                  <div id="details-image" style="background-image: url('content/img/me-listings.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/me-signup.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/me-list-show.png');"></div>
+                </section>
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image: url('content/img/tic-1.png');">
+          <a href="#five" class="heading">
+            <!-- <span>Photographer.</span> -->
+          </a>
+          <div class="details" id="five">
+            <a href="#" class="close">X</a>
+            <h2>Unbeatable Tic-Tac-Toe - (Created with Vanilla JavaScript, HTML, CSS)</h2>
+            <p>
+              The purpose was to practice Javascript and gain a better understanding of DOM (Document Object Model).
               <section id="details-box">
-                <div id="details-image" style="background-image: url('content/img/imenu-1.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/imenu-2.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/burger-csv.png');"></div>
-              </section>
-          </p>
+                  <div id="details-image" style="background-image: url('content/img/tic-1.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/tic-2.png');"></div>
+                  <div id="details-image" style="background-image: url('content/img/tic-3.png');"></div>
+                </section>
+            </p>
+          </div>
         </div>
+
+        <div class="grid" style="background-image: url('content/Web_Background.png')">
+          <a href="#six" class="heading">
+            <span>Check Back Later For New Projects!</span>
+          </a>
+          <div class="details" id="six">
+            <a href="#" class="close">X</a>
+            <h2>Come back later for new projects!</h2>
+            <p>
+              <!-- Slide info here -->
+            </p>
+          </div>
+        </div>
+
+        <!--
+
+        <div class="grid" style="background-image:url('content/img/img7.jpeg')">
+          <a href="#seven" class="heading">
+            <span></span>
+          </a>
+          <div class="details" id="seven">
+            <a href="#" class="close">X</a>
+            <h2>f/3.5 1/320 ISO 320</h2>
+            <p>
+              This shot was taken of one of the displays at White Night last year, converted to black and white.
+              <br><br>
+              Location: White Night, Melbourne, VIC.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image:url('content/img/img8.jpeg')">
+          <a href="#eight" class="heading">
+            <span></span>
+          </a>
+          <div class="details" id="eight">
+            <a href="#" class="close">X</a>
+            <h2>f/8 1/60 ISO 200</h2>
+            <p>
+              Macro Focal Length: 90mm
+              <br><br>
+              Location: Brisbane City Botanic Gardens, QLD.
+            </p>
+          </div>
+        </div>
+
+        <div class="grid" style="background-image:url('content/img/img9.jpeg')">
+          <a href="#nine" class="heading">
+            <span></span>
+          </a>
+          <div class="details" id="nine">
+            <a href="#" class="close">X</a>
+            <h2>f/4 1/250 ISO 200</h2>
+            <p>
+              Macro Focal Length: 90mm
+              <br><br>
+              Location: Brisbane City Botanic Gardens, QLD.
+            </p>
+          </div>
+        </div> -->
       </div>
-
-      <div class="grid" style="background-image:url('content/img/img3.jpeg')">
-        <a href="#two" class="heading">
-          <!-- <span>Future Dev.</span> -->
-        </a>
-        <div class="details" id="two">
-          <a href="#" class="close">X</a>
-          <h2>Portfolio - Static Website (HTML, CSS)</h2>
-          <p>
-            This website was designed to be a resume and a portfolio to showcase my work to protentional future employers.<br>
-
-            <br><br>
-            Check out the files on my <a href="https://github.com/ChristopherDalziel/CD-Website">github</a>!
-              <section id="details-box">
-                <div id="details-image" style="background-image: url('content/img/pf-about.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/pf-contact.png');"></div>
-              </section>
-          </p>
-        </div>
-      </div>
-
-      <div class="grid" style="background-image:url('content/img/snake-market.png')">
-        <a href="#three" class="heading">
-          <!-- <span>t</span> -->
-        </a>
-        <div class="details" id="three">
-          <a href="#" class="close">X</a>
-          <h2>Snake Marketplace - Ruby on Rails (RoR, PostgreSQL, Ruby, HTML, CSS)</h2>
-          <p>
-            The Snake Marketplace was my first Ruby on Rails app, it was built in-class @ Coder Academy as part of our learning expierence before moving onto our Ruby on Rails assignment where we would build our own two-way marketplace app from scratch which would evolve everything I had learned from building the Snake Marketplace and more.<br>
-
-            <br><br>
-            This web-app is not deployed, if you'd like to see screenshots or anything else check it out on my <a href="https://github.com/ChristopherDalziel/snakes_on_a_rail">github</a>!
-              <section id="details-box">
-                <div id="details-image" style="background-image: url('content/img/snake-show.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/snake-list.png');"></div>
-              </section>
-          </p>
-        </div>
-      </div>
-
-      <div class="grid" style="background-image:url('content/img/mineral-exch.png')">
-        <a href="#four" class="heading">
-          <!-- <span></span> -->
-        </a>
-        <div class="details" id="four">
-          <a href="#" class="close">X</a>
-
-          <h2>The Mineral Exchange - Ruby on Rails (RoR, PostgreSQL, Ruby, HTML, CSS)</h2>
-          <p>
-            This was really a combination of everything I had learnt in the projects above - Command line functions, Ruby programming language, Ruby on Rails, SQL, HTML and CSS.<br>
-            The Mineral Exchange was built to be easy to use two-way marketplace. 
-            <br><br>
-            Check out the files on my <a href="https://github.com/ChristopherDalziel/mineral-exchange-2.0">github</a>!
-              <section id="details-box">
-                <div id="details-image" style="background-image: url('content/img/me-listings.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/me-signup.png');"></div>
-                <div id="details-image" style="background-image: url('content/img/me-list-show.png');"></div>
-              </section>
-          </p>
-        </div>
-      </div>
-
-      <!-- <div class="grid" style="background-image:url('content/img/img4.jpeg')">
-        <a href="#five" class="heading">
-          <span>Photographer.</span>
-        </a>
-        <div class="details" id="five">
-          <a href="#" class="close">X</a>
-          <h2>Photographer</h2>
-          <p>
-            Expierenced photographer specializing in Landscape and studio photography. Highly skilled retoucher.
-            Expierence shooting multiple mediums - Portrait, Wedding, Fashion, Product and Documentation.
-          </p>
-        </div>
-      </div> -->
-
-      <!-- <div class="grid" style="background-image:url('content/img/img6.jpeg')">
-        <a href="#six" class="heading">
-          <span></span>
-        </a>
-        <div class="details" id="six">
-          <a href="#" class="close">X</a>
-          <h2>f/2.8 1/25 ISO 200</h2>
-          <p>
-            This shot was taken handheld using only natural light.
-            <br><br>
-            Location: Lamington National Park, QLD.
-          </p>
-        </div>
-      </div>
-
-      <div class="grid" style="background-image:url('content/img/img7.jpeg')">
-        <a href="#seven" class="heading">
-          <span></span>
-        </a>
-        <div class="details" id="seven">
-          <a href="#" class="close">X</a>
-          <h2>f/3.5 1/320 ISO 320</h2>
-          <p>
-            This shot was taken of one of the displays at White Night last year, converted to black and white.
-            <br><br>
-            Location: White Night, Melbourne, VIC.
-          </p>
-        </div>
-      </div>
-
-      <div class="grid" style="background-image:url('content/img/img8.jpeg')">
-        <a href="#eight" class="heading">
-          <span></span>
-        </a>
-        <div class="details" id="eight">
-          <a href="#" class="close">X</a>
-          <h2>f/8 1/60 ISO 200</h2>
-          <p>
-            Macro Focal Length: 90mm
-            <br><br>
-            Location: Brisbane City Botanic Gardens, QLD.
-          </p>
-        </div>
-      </div>
-
-      <div class="grid" style="background-image:url('content/img/img9.jpeg')">
-        <a href="#nine" class="heading">
-          <span></span>
-        </a>
-        <div class="details" id="nine">
-          <a href="#" class="close">X</a>
-          <h2>f/4 1/250 ISO 200</h2>
-          <p>
-            Macro Focal Length: 90mm
-            <br><br>
-            Location: Brisbane City Botanic Gardens, QLD.
-          </p>
-        </div>
-      </div> -->
     </div>
 
     <!-- Footer -->

@@ -1,10 +1,15 @@
-.grid-container {
+#overflow-grid {
   height: 75%;
-  width: 100%;
+  overflow: auto;
+}
+
+.grid-container {
+  height: 200%;
+  width: 99%;
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 300px, 600px;
-  overflow-y: scroll;
+  /* overflow: auto; */
 }
 
 /* Individual box location and sizing, prevents background images repeating when screen size increases */
@@ -192,4 +197,8 @@ a.heading span:hover {
   width: 31%;
   background-color: yellow;
   margin: auto;
+}
+
+h3 {
+  text-transform: uppercase;
 }
