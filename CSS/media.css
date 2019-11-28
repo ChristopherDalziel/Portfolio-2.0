@@ -42,7 +42,7 @@
 
 /* Controlling overflow of text and images and blog, portfolio and about pages */
 @media only screen and (max-width: 1125px) {
-  
+
   .details {
     font-size: 12px;
   }
@@ -176,4 +176,25 @@
     margin-bottom: 80px;
   }
   
+}
+
+/* Smaller mobile screen size */
+/* Detailed descriptions below */
+@media only screen and (max-width: 490px) {
+  a.heading {
+    font-size: 70%;
+  }
+
+  a.heading span {
+    font-size: 80%;
+  }
+
+  .details {
+    font-size: 7px;
+  }
+
+  #portfolio-head {
+    font-size: 80%;
+  }
+
 }
