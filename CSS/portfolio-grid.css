@@ -100,7 +100,7 @@ a.heading span:hover {
 /* Links within the details slide - colour and underlined */
 .details p a {
   color: white;
-  text-decoration: underline;
+  font-size: 20px;
 }
 
 /* When hovering a link within the details slide ease in colour */
@@ -199,6 +199,6 @@ a.heading span:hover {
   margin: auto;
 }
 
-h3 {
+h5 {
   text-transform: uppercase;
 }

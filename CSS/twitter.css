@@ -6,26 +6,12 @@
 }
 
 .container-twitter {
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 65%;
+  margin: auto;
 }
 
 /* Scrolling for blog overflow */
 .overflow {
   height: 80%;
   overflow: auto;
-}
-
-/* Blog posts  */
-.blog {
-  margin: 10px 0px;
-  width: 75%;
-  border-bottom: 2px black solid;
-  padding: 10px;
-}
-
-/* Blog image rules */
-.blog img {
-  height: 400px;
-  width: auto;
 }
