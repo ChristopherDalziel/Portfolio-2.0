@@ -42,19 +42,13 @@
 
 /* Controlling overflow of text and images and blog, portfolio and about pages */
 @media only screen and (max-width: 1125px) {
-  .blog {
-    width: 95%;
-    border: none;
-    border-bottom: 1px solid black;
-  }
-
-  .blog img {
-    width: 400px;
-    height: auto;
-  }
-
+  
   .details {
     font-size: 12px;
+  }
+
+  a.heading span {
+    font-size: 90%;
   }
 
   #about {
@@ -86,6 +80,11 @@
     width: 60%;
     overflow: auto;
   }
+
+  a.heading {
+    font-size: 20px;
+  }
+
 }
 
 /* Mobile screen size */
@@ -168,16 +167,8 @@
     font-size: 7px;
   }
 
-  /* Handing text and image overflow on blog page */
-  .blog {
-    width: 95%;
-    border: none;
-    border-bottom: 1px solid black;
-  }
-
-  .blog img {
-    width: 330px;
-    height: auto;
+  #portfolio-head {
+    font-size: 90%;
   }
 
   /* Raising footer on certain pages to be visable instead of been hidden under buttons that are typically displayed on mobiles */
