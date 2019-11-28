@@ -4,7 +4,7 @@
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 300px, 600px;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 /* Individual box location and sizing, prevents background images repeating when screen size increases */
