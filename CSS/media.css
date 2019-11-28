@@ -180,7 +180,7 @@
 
 /* Smaller mobile screen size */
 /* Detailed descriptions below */
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 500px) {
   a.heading {
     font-size: 70%;
   }
