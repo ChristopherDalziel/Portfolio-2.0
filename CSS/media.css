@@ -199,7 +199,7 @@
 
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 458px) {
   a.heading {
     font-size: 60%;
   }
@@ -215,3 +215,4 @@
   #portfolio-head {
     font-size: 70%;
   }
+}
