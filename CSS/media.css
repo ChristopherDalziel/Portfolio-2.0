@@ -198,3 +198,20 @@
   }
 
 }
+
+@media only screen and (max-width: 450px) {
+  a.heading {
+    font-size: 60%;
+  }
+
+  a.heading span {
+    font-size: 70%;
+  }
+
+  .details {
+    font-size: 7px;
+  }
+
+  #portfolio-head {
+    font-size: 70%;
+  }
