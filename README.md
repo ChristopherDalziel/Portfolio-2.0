@@ -23,7 +23,7 @@ Deployed Webpage: http://www.christopherdalziel.com
 Github Repository: http://www.github.com/ChristopherDalziel/CD-Website
 
 # Sitemap 
-![Alt text](docs/Sitemap-ChristopherDalziel.jpg)
+![Alt text](docs/Sitemap-ChristopherDalziel.png)
 
 
 # Pages, Wireframes and Screenshots
@@ -31,53 +31,53 @@ Github Repository: http://www.github.com/ChristopherDalziel/CD-Website
 ## Homepage
 Basic landing page, links to my professional socials, impactful image, greeting and a navigation bar with internal<br>
 ### Wireframe
-![Alt text](/Docs/home-page.png "Optional Title")
+![Alt text](docs/home-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/home.png "Optional Title")
+![Alt text](docs/home.png "Optional Title")
 
 ## About Me
 Keeping with the impactful theme I have continue to show the full size background image with an speel about myself.<br>
 ### Wireframe
-![Alt text](/Docs/about-me-page.png "Optional Title")
+![Alt text](docs/about-me-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/about.png "Optional Title")
+![Alt text](docs/about.png "Optional Title")
 
 ## Portfolio
 My portfolio page will display my body of work and it is quite easy to customise by expending the grid system to be bigger, or creating a series of seperated grids below. For now I have kept the one grid display some of my current Coder Academy work as well as my previous work as a Photographer.<br>
 ### Wireframe
-![Alt text](/Docs/portfolio-page.png "Optional Title")
+![Alt text](docs/portfolio-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/portfolio.png "Optional Title")
+![Alt text](docs/portfolio.png "Optional Title")
 
 ## Blog
 Hardcoded blog page with all the information you'd need, images, poster, date, and lorem placeholder text.<br>
 ### Wireframe
-![Alt text](/Docs/blog-page.png "Optional Title")
+![Alt text](docs/blog-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/blog.png "Optional Title")
+![Alt text](docs/blog.png "Optional Title")
 
 ## Contact page
 A basic contact me page upon loading the page your instantly placed in the typing section of "Your name", optional phone number input, upon pressing submit it will send an email directly to my personal email.<br>
 ### Wireframe
-![Alt text](/Docs/contact-page.png "Optional Title")
+![Alt text](docs/contact-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/contact.png "Optional Title")
+![Alt text](docs/contact.png "Optional Title")
 
 ## Mobile home page
 To compensate for a smaller screen size on mobiles (600px) I decided to add a drop down menu instead of my normal navigation menu (only on the home screen) to no distort any image that was placed on the background and not risk the user not been able to effectively read or access the menu. On screen sizes larger than this I effectively used a text shadow on the links, but this was ineffective on a mobile screen as it appeared almost invisible to the user.
 
 ### Wireframe
-![Alt text](/Docs/mobile-home-page.png "Optional Title")
+![Alt text](docs/mobile-home-page.png "Optional Title")
 ### Final
-![Alt text](/Docs/mobile-home.jpeg "Optional Title")
+![Alt text](docs/mobile-home.jpeg "Optional Title")
 
 # Colour Pallet
 It was super important to me to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
-![Alt text](/Docs/Colour_P.jpg "Optional Title")
+![Alt text](docs/Colour_P.jpg "Optional Title")
 
 # Inspiration
 A selection of dribble pages I liked which helped lead me to styling idea's
-![Alt text](/Docs/dribble-inspo.jpg "Optional Title")
+![Alt text](docs/dribble-inspo.jpg "Optional Title")
 
 # Tech Stack
 - HTML5
