@@ -18,9 +18,9 @@ Fonts obtained via [Google Fonts](https://fonts.google.com/)
 
 
 # Links
-Deployed Webpage: http://www.christopherdalziel.com
+[Deployed Webpage](http://www.christopherdalziel.com)
 <br>
-Github Repository: http://www.github.com/ChristopherDalziel/CD-Website
+[Github Repository](http://www.github.com/ChristopherDalziel/CD-Website)
 
 # Sitemap 
 ![Alt text](docs/Sitemap-ChristopherDalziel.png)
