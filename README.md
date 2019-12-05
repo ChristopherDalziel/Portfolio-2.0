@@ -11,7 +11,6 @@ For my last page and last component I had a a contact page/form upon the page lo
 My responsive design had to start at a higher point than mobiles to accommodate even smaller laptop screens, then tablets and of course mobile. I achieved this with a series of font size changes, as well as background changes and a drop down navigation menu at the smallest size. This website is designed to work on every platform.<br><br>
 My branches create a different experience for my webpage the first branch is greyscale with a new colour pallet! This was one of my initial ideas for my website but I decied I wanted to stay with colour because it gave me more options and had more impact but it was cool to be able to create it as another page. <br>
 My second branch is a simple font change, which again creates a completely different feel from the bold font.<br><br>
-
 Flexbox design, my entire website is designed around 100vh, on every page, the website is held together by an overlaying container using flex box, the centre is a calculation of all the exterior components, this is the reasoning for the blog overflow it was important to me to keep my impact that my Navigation bar and my footer was consistently in line.<br><br>
 
 Icon's were obtained via [Font Awesome](https://fontawesome.com/)<br>
