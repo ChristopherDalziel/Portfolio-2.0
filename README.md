@@ -23,7 +23,7 @@ Deployed Webpage: http://www.christopherdalziel.com
 Github Repository: http://www.github.com/ChristopherDalziel/CD-Website
 
 # Sitemap 
-![Alt text](Docs/Sitemap-ChristopherDalziel.jpg "Optional Title")
+![Alt text](Docs/Sitemap-ChristopherDalziel.jpg)
 
 # Pages, Wireframes and Screenshots
 
