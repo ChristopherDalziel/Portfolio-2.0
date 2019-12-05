@@ -49,13 +49,6 @@ My portfolio page will display my body of work and it is quite easy to customise
 ### Final
 ![Alt text](docs/portfolio.png "Optional Title")
 
-## Blog
-Hardcoded blog page with all the information you'd need, images, poster, date, and lorem placeholder text.<br>
-### Wireframe
-![Alt text](docs/blog-page.png "Optional Title")
-### Final
-![Alt text](docs/blog.png "Optional Title")
-
 ## Contact page
 A basic contact me page upon loading the page your instantly placed in the typing section of "Your name", optional phone number input, upon pressing submit it will send an email directly to my personal email.<br>
 ### Wireframe
@@ -74,10 +67,6 @@ To compensate for a smaller screen size on mobiles (600px) I decided to add a dr
 # Colour Pallet
 It was super important to me to keep a steady flow through the website, after selecting my home page image I wanted everything to be colourized with respect to it. The brown selection of my pallet is actually my hair colour from the background image. I knew I wanted a green and a red, staying with the pastel theme but still having some impact, I used a randomized pallet website to scroll through a bunch of different colours until I found some sets that I liked.
 ![Alt text](docs/Colour_P.jpg "Optional Title")
-
-# Inspiration
-A selection of dribble pages I liked which helped lead me to styling idea's
-![Alt text](docs/dribble-inspo.jpg "Optional Title")
 
 # Tech Stack
 - HTML5
