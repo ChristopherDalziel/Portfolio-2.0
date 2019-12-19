@@ -138,6 +138,10 @@
     font-size: 25px;
   }
 
+  section {
+    font-size: 10px;
+  }
+
   /* Background image change for mobile on about me page */
   #aboutme-background {
     background: url(/Content/Web_Background.png);
